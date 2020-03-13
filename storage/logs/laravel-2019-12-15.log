@@ -1,0 +1,73 @@
+[2019-12-15 22:26:27] local.ERROR: There are no commands defined in the "meke" namespace.
+
+Did you mean this?
+    make {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"meke\" namespace.
+
+Did you mean this?
+    make at /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php:598)
+[stacktrace]
+#0 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('meke')
+#1 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('meke:model')
+#2 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2019-12-15 23:40:05] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php:670)
+[stacktrace]
+#0 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('make')
+#1 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/camilo/librosDECoolto/librosDeCoolto/libros_de_coolto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
